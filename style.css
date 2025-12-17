@@ -44,7 +44,7 @@ p {
 }
 .about {
   display: flex;
-  gap: 40px;
+  gap: 48px;
   align-items: flex-start;
 }
 
@@ -58,19 +58,30 @@ p {
 
 .about-photo img {
   width: 100%;
-  max-width: 220px;
+  max-width: 230px;
   border-radius: 4px;
 }
 
 .icons {
-  margin-top: 20px;
+  margin-top: 18px;
 }
 
 .icons a {
-  margin-right: 12px;
-  text-decoration: none;
-  color: #000;
-  font-size: 18px;
+  margin-right: 14px;
+  display: inline-block;
 }
 
+.icons img {
+  width: 18px;
+  height: 18px;
+  filter: grayscale(100%);
+}
+
+.icons img:hover {
+  filter: none;
+}
+p {
+  font-size: 17px;
+  line-height: 1.65;
+}
 
