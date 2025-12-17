@@ -1,7 +1,7 @@
 # Research
 
 ## Hydrogen Embrittlement
-High-pressure gaseous hydrogen charging, microstructure–property relationships,
+High-pressure gaseous hydrogen charging, microstructure–property relationships, 
 and fracture behavior in titanium alloys.
 
 ## Additive Manufacturing
