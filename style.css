@@ -64,22 +64,30 @@ p {
 
 .icons {
   margin-top: 18px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
 }
 
 .icons a {
-  margin-right: 14px;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
 }
 
 .icons img {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
+  max-width: 16px;
+  max-height: 16px;
   filter: grayscale(100%);
+  opacity: 0.85;
 }
 
 .icons img:hover {
+  opacity: 1;
   filter: none;
 }
+
 p {
   font-size: 17px;
   line-height: 1.65;
